@@ -1,0 +1,17 @@
+
+cover_price = 24.95
+store_price = cover_price - 0.40
+price_for_a_book = 3.0 + store_price
+
+price_for_rest_copies = (0.75+store_price)*59
+
+total_price = price_for_a_book + price_for_rest_copies
+
+print("Total cost of copies is {}".format(total_price))
+
+OUTPUT ::
+
+ace@ace-ThinkCentre-M70e:~$ nano exp1.py
+ace@ace-ThinkCentre-M70e:~$ python exp1.py
+Total cost of copies is 1520.25
+
