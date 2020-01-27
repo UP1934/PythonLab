@@ -1,0 +1,21 @@
+def word(name):
+	if len(name) < 2:
+		return ''
+	else:
+		return name[0:2] + name[-2:]
+
+print(word('Udit'))
+print(word('Ud'))
+print(word('U'))
+
+	
+
+Output :
+
+ace@ace-ThinkCentre-M70e:~$ cd Desktop
+ace@ace-ThinkCentre-M70e:~/Desktop$ python 2a.py
+Udit
+UdUd
+
+ace@ace-ThinkCentre-M70e:~/Desktop$ 
+
