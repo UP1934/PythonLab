@@ -1,0 +1,28 @@
+def gen_fibo(n):
+
+	a = 1
+	b = 1
+	series=[]
+
+	for i in range(n):
+		series.append(a)
+		a,b = b,a+b
+	return series
+
+x = int(input("Enter a number :\n"))
+
+print("Fibonacci Series is:")
+
+for num in gen_fibo(x):
+	print(num,end=' ')
+
+OUTPUT::
+
+C:\Users\Admin>cd Desktop\udit
+
+C:\Users\Admin\Desktop\udit>python Exp_6b.py
+Enter a number :
+10
+Fibonacci Series is:
+1 1 2 3 5 8 13 21 34 55
+C:\Users\Admin\Desktop\udit>
