@@ -1,0 +1,22 @@
+init= {'k1':10,'k2':20,'k3':30,'k4':10,'k5':40,'k6':50}
+
+result={}
+print('original dictonary is :\n',init)
+for key,value in init.items():
+	if value not in result.values():
+		result[key]=value
+print('\nAfter Removing duplicate values')
+print(result)
+
+OUTPUT ::
+
+C:\Users\Admin>cd Desktop\udit
+
+C:\Users\Admin\Desktop\udit>python Exp_3c.py
+original dictonary is :
+ {'k1': 10, 'k2': 20, 'k3': 30, 'k4': 10, 'k5': 40, 'k6': 50}
+
+After Removing duplicate values
+{'k1': 10, 'k2': 20, 'k3': 30, 'k5': 40, 'k6': 50}
+
+C:\Users\Admin\Desktop\udit>
