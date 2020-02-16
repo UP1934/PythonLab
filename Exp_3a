@@ -1,0 +1,26 @@
+print("enter words to be added to list")
+mylist = input().split()
+print("\nList is:\n",mylist)
+x = int(input("Enter Length above which words should be displayed: "))
+
+for i in mylist:
+	if len(i) >= x:
+		print(i)
+
+OUTPUT:
+
+C:\Users\Admin>cd Desktop\udit
+
+C:\Users\Admin\Desktop\udit>python Exp_3a.py
+enter words to be added to list
+akhad bhakhad bambe bo x w u
+
+List is:
+ ['akhad', 'bhakhad', 'bambe', 'bo', 'x', 'w', 'u']
+Enter Length above which words should be displayed: 2
+akhad
+bhakhad
+bambe
+bo
+
+C:\Users\Admin\Desktop\udit>
