@@ -1,0 +1,23 @@
+def series(x):
+	return x*'n'
+
+m=int(input('Enter value of maximum no. of n:  '))
+i=1
+while i<m:
+	print(series(i),end='+')
+	i = i+1
+print(series(m))
+
+OUTPUT::
+
+C:\Users\Admin>cd Desktop\udit
+
+C:\Users\Admin\Desktop\udit>python Exp_5a.py
+Enter value of maximum no. of n:  4
+n+nn+nnn+nnnn
+
+C:\Users\Admin\Desktop\udit>python Exp_5a.py
+Enter value of maximum no. of n:  7
+n+nn+nnn+nnnn+nnnnn+nnnnnn+nnnnnnn
+
+C:\Users\Admin\Desktop\udit>
