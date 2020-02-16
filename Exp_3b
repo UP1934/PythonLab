@@ -1,0 +1,34 @@
+print("Enter Elements of first list:\n")
+list1 = input().split()
+
+print("Enter Elements of second list:\n")
+list2 = input().split()
+
+print("List 1 is:\n",list1)
+print("List 2 is:\n",list2)
+
+for i in list1:
+	for j in list2:
+		if i==j:
+			print("True , {} is common".format(i))
+
+ OUTPUT:
+
+ C:\Users\Admin>cd Desktop
+
+C:\Users\Admin\Desktop>cd udit
+
+C:\Users\Admin\Desktop\udit>python Exp_3b.py
+Enter Elements of first list:
+
+akhad bhakhad bambe bo
+Enter Elements of second list:
+
+hello hi bo extra
+List 1 is:
+ ['akhad', 'bhakhad', 'bambe', 'bo']
+List 2 is:
+ ['hello', 'hi', 'bo', 'extra']
+True , bo is common
+
+C:\Users\Admin\Desktop\udit>
