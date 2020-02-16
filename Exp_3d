@@ -1,0 +1,32 @@
+print("enter elements of tuple")
+
+l = input().split()
+t=tuple(l)
+print(t)
+
+x = input('Enter a word to be searched in tuple: ')
+
+if x in t :
+	print('Element {} found '.format(x))
+else:
+	print("Elment {} not found".format(x))
+
+OUTPUT::
+
+C:\Users\Admin>cd Desktop\udit
+
+C:\Users\Admin\Desktop\udit>python Exp_3d.py
+enter elements of tuple
+a e i o u
+('a', 'e', 'i', 'o', 'u')
+Enter a word to be searched in tuple: o
+Element o found
+
+C:\Users\Admin\Desktop\udit>python Exp_3d.py
+enter elements of tuple
+a e i o u
+('a', 'e', 'i', 'o', 'u')
+Enter a word to be searched in tuple: b
+Elment b not found
+
+C:\Users\Admin\Desktop\udit>
